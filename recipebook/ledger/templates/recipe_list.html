@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+</head>
+<body>
+    <h1>Recipes Book</h1>
+
+    <h2>Recipe List</h2>
+    
+    <ul>
+        {% for recipe in recipes %}
+            <h1>{{ recipe.name }}</h1>
+        {% endfor %}
+    </ul>
+</body>
+</html>
